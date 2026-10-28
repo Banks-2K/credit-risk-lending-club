@@ -1,0 +1,14 @@
+# Environnement virtuel
+.venv/
+
+# Fichiers temporaires de Jupyter et de Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Données : trop volumineuses, à télécharger depuis Kaggle (voir README)
+data/*
+!data/README.md
+
+# Brouillons de travail (non publiés)
+brouillons/
